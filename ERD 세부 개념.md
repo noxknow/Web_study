@@ -21,9 +21,8 @@
 ## Relationship
 
 > Entity와 Entity간의 관계를 나타낸다.
-> 
 
-<img src="./image.png", height="100x", width="100px"/https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fcadeb9b-2245-41ff-82f2-4fa2ce6e5a84/Untitled.png>
+![image](https://user-images.githubusercontent.com/122594223/222654535-c708c337-ff4d-414d-b37c-9292c868e80b.png)
 
 1. 없어도 되고, 하나있어도 되고, 다중도 되는 표시 (아래부터)
 2. 없거나 다중만 되는 표시
@@ -33,7 +32,7 @@
 6. 다중
 7. 한개
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06d9f6eb-eed6-4c5d-b6fe-4b5b01cedd87/Untitled.png)
+![image](https://user-images.githubusercontent.com/122594223/222655142-f43ec8dd-3a52-4457-8b13-dec3771fc608.png)
 
 - 예를 들어 설명하자면 배달앱의 경우 여러개의 회원주소를 가지고 한개를 메인으로 지정할 수 있다.
 - 그럴때 위같이 없어도 되고, 하나있어도 되고, 다중도 되는 표시를 사용한다.
@@ -44,7 +43,7 @@
 
 ## ****기본키(PK), 외래키(FK)****
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8b7e764f-a5d4-4cc0-847e-6fa8b4416a14/Untitled.png)
+![image](https://user-images.githubusercontent.com/122594223/222655224-d3b5c141-4bd7-4d6e-9ea9-496d2b63289d.png)
 
 ```sql
 PK(primary key: 기본키)는 학생과 수업의 테이블에서 각 행의 정보들을 식별할 수 있는 정보
@@ -71,7 +70,7 @@ FK(foreign key:외래키)는 참조하는 테이블과 참조되는 테이블의
 
 ## 식별 관계, 비식별 관계
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93b84391-bb90-489f-95cf-cd7db2c5610f/Untitled.png)
+![image](https://user-images.githubusercontent.com/122594223/222655311-9173acff-aa99-4aff-a3df-7d758450bc15.png)
 
 - 관계를 설정할때 식별관계와 비식별관계가 있다.
 - 식별관계는 FK(외래키)를 PK(기본키)처럼 객체를 구분하는 값으로 볼것인가 아닌가에 있다.
@@ -87,7 +86,8 @@ FK(foreign key:외래키)는 참조하는 테이블과 참조되는 테이블의
 
 # ERD 테이블 항목
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c6ae128a-f571-488a-8455-30d0a3631f5f/Untitled.png)
+![image](https://user-images.githubusercontent.com/122594223/222655382-c0bbb882-335c-44bf-8399-292d28f45a68.png)
+
 
 - `논리 테이블명` : 테이블명에 대한 설명 (한글)
 - `물리 테이블명` : 실제 테이블명 (영문)
@@ -103,7 +103,9 @@ FK(foreign key:외래키)는 참조하는 테이블과 참조되는 테이블의
 
 ## ERD 작성 예시
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/531a226a-f8fd-48db-a827-03115c9889f7/Untitled.png)
+![image](https://user-images.githubusercontent.com/122594223/222655525-93d07a5f-2288-4200-9ae1-3b627d9017db.png)
+
+
 
 > 관계를 지정하게 되면 그림상에서 회원 Entity에 있는 Pk가 관계선으로 연결되어있는 다른 게시글 테이블에 Fk로 삽입 되게 된다. 이렇게 삽입된 외래키는 수정이 가능하다.
 >
